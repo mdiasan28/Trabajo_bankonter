@@ -1,15 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
+<meta charset="ISO-8859-1">
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 
-  <title>SB Admin 2 - Login</title>
+  <title>bankonter - Login</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -18,11 +21,10 @@
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+
 </head>
-
 <body class="bg-gradient-primary">
-
-  <div class="container">
+ <div class="container">
 
     <!-- Outer Row -->
     <div class="row justify-content-center">
@@ -49,19 +51,20 @@
                     <div class="form-group">
                       <div class="custom-control custom-checkbox small">
                         <input type="checkbox" class="custom-control-input" id="customCheck">
-                        <label class="custom-control-label" for="customCheck">Remember Me</label>
+                        <!--<label class="custom-control-label" for="customCheck">Remember Me</label>-->
                       </div>
                     </div>
-                    <a href="index.html" class="btn btn-primary btn-user btn-block">
+                    <a href="index.html" class="btn btn-primary btn-user btn-block" type="button">
+                      <span class="spinner-border spinner-border-sm mr-2"></span>
                       Login
                     </a>
-                    <hr>
-                    <a href="index.html" class="btn btn-google btn-user btn-block">
+                   <!--  <hr>
+                   <a href="index.html" class="btn btn-google btn-user btn-block">
                       <i class="fab fa-google fa-fw"></i> Login with Google
                     </a>
                     <a href="index.html" class="btn btn-facebook btn-user btn-block">
                       <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
-                    </a>
+                    </a>-->
                   </form>
                   <hr>
                   <div class="text-center">
@@ -91,7 +94,6 @@
 
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
-
+  
 </body>
-
 </html>
